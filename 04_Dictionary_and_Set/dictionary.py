@@ -27,5 +27,5 @@ print(dict.items()) # This method return all keys and values of dict
 print(dict.get("name")) # Return the key according to value
 
 # 05 is update
-updateVal = print(dict.update({"name": "chohan"})) # This method return all the values of dict
+updateVal = print(dict.update({"name": "chohan"}))
 print(updateVal)
