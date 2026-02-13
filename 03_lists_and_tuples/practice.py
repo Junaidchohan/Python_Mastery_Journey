@@ -22,3 +22,13 @@ if(ele2 == newEle):
     print("palindrome")
 else:
     print("Not palindrome")
+
+# Question_03
+# wap to count the number of students with the grade "A" in the following tuple
+tup = ("C", "B", "D", "A")
+print(tup.count("A"))
+
+# Q4
+# Store the above value in list and sort them from A to D
+tup = ("C", "B", "D", "A")
+print(sorted(tup))
