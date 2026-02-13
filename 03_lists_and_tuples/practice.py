@@ -1,12 +1,12 @@
 # Question_01 WAP to ask a user to enter name of their 3 fav movies & store them in a list
 
-# name1 = input("Enter a name of your first movie : ")
-# name2 = input("Enter a name of your second movie : ")
-# name3 = input("Enter a name of your thired movie : ")
+name1 = input("Enter a name of your first movie : ")
+name2 = input("Enter a name of your second movie : ")
+name3 = input("Enter a name of your thired movie : ")
 
-# movie = [name1, name2, name3]
+movie = [name1, name2, name3]
 
-# print(movie)
+print(movie)
 
 
 # Question_02 WAP to check if a list contains a palindrome of elements.
@@ -30,5 +30,5 @@ print(tup.count("A"))
 
 # Q4
 # Store the above value in list and sort them from A to D
-tup = ("C", "B", "D", "A")
-print(sorted(tup))
+List = ["C", "B", "D", "A"]
+print(sorted(List))
