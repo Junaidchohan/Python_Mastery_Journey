@@ -10,7 +10,7 @@ class Car:
         print("car stop.")
 
 
-# Class second and its called child class and here parent class we write in ()
+# Class second and its called child class of Car and parent class of Fortuner
 class ToyotaCar(Car):
     def __init__(self, brand):
         self.name = brand

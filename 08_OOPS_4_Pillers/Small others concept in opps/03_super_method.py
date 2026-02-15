@@ -18,7 +18,7 @@ class ToyotaCar(Car):
        # (in simple word we need to acces the constracter property of the parent class and for this purpose we use Super method)
        # We use Super Method to call Constructor of otheres class
        super().__init__(type)
-       super().Start()
+       super().Start() # As Welll we can access the methods of otheres classes
        self.name = name
 
 
@@ -26,7 +26,6 @@ class ToyotaCar(Car):
 car1 = ToyotaCar("fortuner", "electric")
 
 print(car1.name)
-# print(car1.Start)
 print(car1.type)
 
 

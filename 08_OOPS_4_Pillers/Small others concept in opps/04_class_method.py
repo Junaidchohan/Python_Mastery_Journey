@@ -1,8 +1,8 @@
 class Person:
     name = "Junaid"
     # Instance Method
-    # def __init__(self, name):
-    #     self.name = name
+    def __init__(self, name):
+        self.name = name
 
     # Static Method
     @staticmethod
