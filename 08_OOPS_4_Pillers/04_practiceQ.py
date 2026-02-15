@@ -47,7 +47,7 @@ class Order:
         self.price = price
 
 
-    def __gt__(self, odr2):
+    def __gt__(self, odr2): # we dunder fun here for > otherwise our program and python dont know about this logic Grater Than
         return self.price > odr2.price
 
 odr1 = Order("chips", 20)
