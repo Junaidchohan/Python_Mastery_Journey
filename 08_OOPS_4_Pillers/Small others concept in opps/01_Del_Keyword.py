@@ -5,4 +5,4 @@ class Student:
 s1 = Student("junaid")
 print(s1.name)
 del s1
-print(s1.name)
+print(s1.name) # here its not print because its deleted
