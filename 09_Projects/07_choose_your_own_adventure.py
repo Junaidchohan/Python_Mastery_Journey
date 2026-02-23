@@ -39,3 +39,4 @@ else:
 
 print("Thank you for trying", name)
 print("Thank you for trying", name)
+print("Thank you for trying", name)
